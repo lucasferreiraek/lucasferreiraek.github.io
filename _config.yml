@@ -1,6 +1,6 @@
 # main text of home
 name: Lucas Ferreira
-bio: Living the life coding, playing music and drinking beer
+bio: Living the life coding, playing music, drinking beer and collecting experiences
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -54,18 +54,18 @@ medium: https://medium.com/@lucasferreiraek
 email: lucasferreiraek@gmail.com
 
 authors:
-    lf:
+    lucasferreira:
         name: Lucas Ferreira
-        bio: A Man who travels the world eating noodles
+        bio: Living the life coding, playing music, drinking beer and collecting experiences
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: https://twitter.com/lucasferreiraek
+    # jamesfoster:
+    #     name: James Foster
+    #     bio: A Man who develops software with coffee
+    #     external-image: false
+    #     picture: assets/images/james.jpg
+    #     twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
