@@ -1,6 +1,6 @@
 ---
 title: 'Python, Django e Ambientes Virtuais: uma relação de organização e produtividade'
-date: 2016-02-24 22:44
+date: 2019-07-24 16:51
 headerImage: false
 tag:
 - python
