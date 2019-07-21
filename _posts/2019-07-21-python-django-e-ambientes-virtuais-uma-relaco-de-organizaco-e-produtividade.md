@@ -1,6 +1,6 @@
 ---
 title: 'Python, Django e Ambientes Virtuais: uma relação de organização e produtividade'
-date: 2019-07-24 16:51
+date: 2019-07-21 16:51
 headerImage: false
 tag:
 - python
@@ -16,7 +16,9 @@ author: lucasferreira
 ### Um breve conto
 Quem desenvolve com Python e trabalha com mais de um projeto sabe que volta e meia rola uma dor de cabeça em relação a versões da linguagem e conflitos entre bibliotecas. Meses atrás eu estava iniciando meus estudo em Machine Learning e Data Science no laboratório da universidade e também trabalhava em um outro projeto com Django, e a partir daí começaram a surgir alguns problemas: nem conseguia rodar o Jupyter Notebook e nem um servidor Django localmente… e em meio ao caos me surgiu uma luz: **ambientes virtuais!**
 
-![](http://www.reactiongifs.com/wp-content/uploads/2012/12/this-is-beautiful.gif)
+{% highlight raw %}
+![Markdown Image](http://www.reactiongifs.com/wp-content/uploads/2012/12/this-is-beautiful.gif)
+{% endhighlight %}
 
 Depois que lembrei disso, fui pesquisar pra aprender como fazer da melhor forma e no tutorial das meninas do [Django Girls](https://tutorial.djangogirls.org/pt/?source=post_page---------------------------) tinha lá tudo explicadinho, lindo de se ver! *-*
 
@@ -37,7 +39,9 @@ $ cd blogproject
 
 Depois que você entrar no diretório, seu terminal deve ficar assim:
 
-![](https://miro.medium.com/max/700/1*-fVLijIdxTTOohheDNWs-A.png)
+{% highlight raw %}
+![Markdown Image](https://miro.medium.com/max/700/1*-fVLijIdxTTOohheDNWs-A.png)
+{% end highlight %}
 
 O comando ```mkdir``` cria diretórios e o comando ```cd``` acessa um diretório.
 
@@ -59,7 +63,9 @@ Este comando cria um diretório chamado ```blog``` que contém nosso ambiente vi
 
 Acabamos de ativar nosso ambiente virtual! Com o ambiente ativado, seu terminal deve ficar assim:
 
-![](https://miro.medium.com/max/700/1*n3SlzBrbi6kgBXEuEhnfnw.png)
+{% highlight raw %}
+![Markdown Image](https://miro.medium.com/max/700/1*n3SlzBrbi6kgBXEuEhnfnw.png)
+{% end highlight %}
 
 Nesse estado, toda e qualquer instalação de módulos Python e até configurações de versões do Python será feita localmente no seu ambiente sem alterar Python globalmente no seu sistema operacional.
 
@@ -89,25 +95,35 @@ Para criar seu projeto Django, rode esse comando:
 
 E pronto! Seu projeto Django foi criado!
 
-![](https://miro.medium.com/max/480/1*mNGFX8u39v3fGLgzS9k3pA.gif)
+{% highlight raw %}
+![Markdown Image](https://miro.medium.com/max/480/1*mNGFX8u39v3fGLgzS9k3pA.gif)
+{% end highlight %}
 
 Agora, digite ```ls``` no seu terminal e veja o que tem dentro dele:
 
-![](https://miro.medium.com/max/700/1*ZMLY3eFkhqiT65dxqNO1OA.png)
+{% highlight raw %}
+![Markdown Image](https://miro.medium.com/max/700/1*ZMLY3eFkhqiT65dxqNO1OA.png)
+{% end highlight %}
 
 Entendendo o que estamos vendo: ```blog``` é o diretório do seu ambiente virtual, ```meublog``` é o diretório do seu projeto. Agora use novamente o comando ```cd``` para entrar no diretório ```meublog``` e em seguida rode o comando ```runserver``` para exibir seu site:
 
-![](https://miro.medium.com/max/700/1*3upBwwc234-N_6L7JWlxPw.png)
+{% highlight raw %}
+![Markdown Image](https://miro.medium.com/max/700/1*3upBwwc234-N_6L7JWlxPw.png)
+{% end highlight %}
 
 Quando você rodar o ```runserver```, o Terminal vai te mostrar uma saída parecida com essa:
 
-![](https://miro.medium.com/max/700/1*twCNjKZIhsrX_0iy3zuOKw.png)
+{% hightlight raw %}
+![Markdown Image](https://miro.medium.com/max/700/1*twCNjKZIhsrX_0iy3zuOKw.png)
+{% end highlight %}
 
 > Se você estiver vendo uma parte do texto do terminal em vermelho escrito “You have 15 unapplied…”, não se preocupe: é só um aviso do Django dizendo que você deve migrar suas aplicações para o banco de dados. Mais adiante nos seus estudos você vai entender melhor isso.
 
 Copie e cole esse endereço http://127.0.0.1:8080 no seu navegador ou então posicione o cursor do mouse e depois faça Ctrl+clique do mouse que ele te redireciona para o navegador e, em seguida, você vai ver uma tela como essa:
 
-![](https://miro.medium.com/max/700/1*FEXvL5XivNmyWFc5WXy_6g.png)
+{% highlight raw %}
+![Markdown Image](https://miro.medium.com/max/700/1*FEXvL5XivNmyWFc5WXy_6g.png)
+{% end highlight %}
 
 Parabéns! Você acabou de fazer o seu Hello World em Django!
 
@@ -116,6 +132,8 @@ Eu espero ter te ajudado a criar um ambiente virtual. Quando eu consegui criar m
 
 Quero agradecer as meninas do Django Girls por terem criado um tutorial de Django tão didático e tão completo! Escrito desde como funciona a web até você colocar a mão no código! Foi o tutorial delas que me inspirou a fazer este que, no fim das contas, é um recorte de uma parte do tutorial delas e agradeço também a Jessica Temporal que foi pelo site dela que eu descobri o venv e tive as primeiras sacadas sobre esse ambiente virtual. Obrigado meninas, vocês arrasam!
 
-![](https://miro.medium.com/max/480/1*TlzCM3A6lRXM5FvZIge03Q.gif)
+{% highlight raw %}
+![Markdown Image](https://miro.medium.com/max/480/1*TlzCM3A6lRXM5FvZIge03Q.gif)
+{% end highlight %}
 
 Também tô muito feliz porque esse é minha primeira publicação por aqui 😍 (foi minha primeira publicação no Medium e é a primeira no site) e espero continuar escrevendo sempre que eu tiver alguma coisa legal pra compartilhar. Bem, é isso. Abraços e até mais!
