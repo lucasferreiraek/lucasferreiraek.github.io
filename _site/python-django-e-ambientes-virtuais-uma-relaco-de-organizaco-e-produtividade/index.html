@@ -1,0 +1,106 @@
+<blockquote>
+  <p>O texto que você vai ler a partir de agora está publicado no meu perfil do Medium e, como eu optei pro criar meu próprio site, migrei o texto pra o site dando uma  repaginada no texto.</p>
+</blockquote>
+
+<h3 id="um-breve-conto">Um breve conto</h3>
+<p>Quem desenvolve com Python e trabalha com mais de um projeto sabe que volta e meia rola uma dor de cabeça em relação a versões da linguagem e conflitos entre bibliotecas. Meses atrás eu estava iniciando meus estudo em Machine Learning e Data Science no laboratório da universidade e também trabalhava em um outro projeto com Django, e a partir daí começaram a surgir alguns problemas: nem conseguia rodar o Jupyter Notebook e nem um servidor Django localmente… e em meio ao caos me surgiu uma luz: <strong>ambientes virtuais!</strong></p>
+
+<p><img src="http://www.reactiongifs.com/wp-content/uploads/2012/12/this-is-beautiful.gif" alt="" /></p>
+
+<p>Depois que lembrei disso, fui pesquisar pra aprender como fazer da melhor forma e no tutorial das meninas do <a href="https://tutorial.djangogirls.org/pt/?source=post_page---------------------------">Django Girls</a> tinha lá tudo explicadinho, lindo de se ver! <em>-</em></p>
+
+<p>E como eu defendo a ideia de que conhecimento bom é conhecimento disseminado, resolvi (re)escrever aqui o passo-a-passo do tutorial das meninas de como criar um ambiente virtual de desenvolvimento Python.</p>
+
+<h3 id="antes-de-mais-nada-o-que-são-ambientes-virtuais">Antes de mais nada, o que são ambientes virtuais?</h3>
+<p>De forma resumida, os ambientes virtuais são um conjunto de diretórios que isolam versões do Python e de bibliotecas de forma local, separando-as das versões globais que acompanham o sistema operacional. Agora, vamos fazer a mágica acontecer!</p>
+
+<h3 id="organizando-diretórios">Organizando diretórios</h3>
+<p>Django passou a adotar exclusivamente Python 3.x após a release do Django 2.0, mais precisamente Python 3.6 e como eu utilizava inicialmente Anaconda só para Data Science e o Anaconda utiliza Python 3.7 (versões do Python utilizadas pelas tecnologias citadas no momento da escrita dessa publicação), surge a necessidade de se utilizar ambientes virtuais.</p>
+
+<p>Para fins didáticos, vamos supor que você vai criar um blog em Django (que inclusive é bem legal de fazer). Então, crie um diretório para o projeto que você vai trabalhar e, em seguida, entre nele:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ mkdir blogproject
+$ cd blogproject
+</code></pre></div></div>
+
+<p>Depois que você entrar no diretório, seu terminal deve ficar assim:</p>
+
+<p><img src="https://miro.medium.com/max/700/1*-fVLijIdxTTOohheDNWs-A.png" alt="" /></p>
+
+<p>O comando <code class="highlighter-rouge">mkdir</code> cria diretórios e o comando <code class="highlighter-rouge">cd</code> acessa um diretório.</p>
+
+<h3 id="criando-um-ambiente-virtual">Criando um ambiente virtual</h3>
+
+<p>Até onde eu sei, existem três ambientes virtuais por aí: <a href="https://github.com/pyenv/pyenv">pyenv</a>, <a href="https://virtualenv.pypa.io/en/latest/">virtualenv</a> e <a href="https://docs.python.org/3/library/venv.html">venv</a>. Qual a diferença entre eles? Em linhas gerais, os dois primeiros precisam ser instalados na sua máquina e o último já vem no conjuntos de módulos padrão do Python desde a versão 3.3 da linguagem em algumas distribuições Linux e eu utilizo o Manjaro 18 Illyria e, por conta disso, utilizarei a <strong>venv</strong>.</p>
+
+<p>Dentro do diretório <code class="highlighter-rouge">blogproject</code> vamos criar nosso ambiente virtual chamado blog com o seguinte comando:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/blogproject$ python3 -m venv blog
+</code></pre></div></div>
+
+<p>Este comando cria um diretório chamado <code class="highlighter-rouge">blog</code> que contém nosso ambiente virtual (que é basicamente composto por diretórios e arquivos). Para ativarmos o nosso ambiente virtual, vamos rodar o seguinte comando:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/blogproject$ source blog/bin/activate
+</code></pre></div></div>
+
+<p>Acabamos de ativar nosso ambiente virtual! Com o ambiente ativado, seu terminal deve ficar assim:</p>
+
+<p><img src="https://miro.medium.com/max/700/1*n3SlzBrbi6kgBXEuEhnfnw.png" alt="" /></p>
+
+<p>Nesse estado, toda e qualquer instalação de módulos Python e até configurações de versões do Python será feita localmente no seu ambiente sem alterar Python globalmente no seu sistema operacional.</p>
+
+<h3 id="instalando-django">Instalando Django</h3>
+<p>Agora com o ambiente virtual ativo, podemos instalar o Django. O primeiro passo agora é verificar se a última versão do <code class="highlighter-rouge">pip</code> está instalada. O <code class="highlighter-rouge">pip</code> é o gerenciador de pacotes Python e é com ele que instalamos módulos e frameworks Python necessárias para seu projeto. Com o comando a seguir, faremos a instalação ou atualização do <code class="highlighter-rouge">pip</code>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/blogproject$ python3 -m pip install --upgrade pip
+</code></pre></div></div>
+
+<p>Feito isso, vamos instalar o Django através de requisitos, utilizando um arquivo chamado <code class="highlighter-rouge">requirements.txt</code>, que guarda as dependências necessárias para instalação utilizando o <code class="highlighter-rouge">pip install</code>. Dentro do diretório <code class="highlighter-rouge">blogproject</code> crie um arquivo chamado <code class="highlighter-rouge">requirements.txt</code>. Em seguida, abra o arquivo e escreva Django~=2.1.4 (ou a versão que você preferir), salve o arquivo e feche-o.</p>
+
+<p><strong>Informação legal antes de executar esse comando:</strong> no comando salvo em requirements.txt existe uma espécie de operador: <code class="highlighter-rouge">~=</code>. Ele vai dizer ao pip “pip, favor, instale a versão do Django igual ou superior a 2.1.4”. Se você preferir instalar exatamente a versão que você explicitou no arquivo, use <code class="highlighter-rouge">==</code> que significa dizer “pip, por favor, instale exatamente a versão solicitada”. Agora, execute o comando:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/blogproject$ pip install -r requirements.txt
+</code></pre></div></div>
+
+<h3 id="bonus-track-django-hello-world">Bonus Track: Django Hello World!</h3>
+<p>Como bônus, vou te ajudar a fazer um “Hello World” em Django. Talvez você que tá lendo esse texto esteja começando com Django e por algum motivo veio parar aqui. Se você só tem interesse em saber dos ambientes virtuais, pode rolar a página um pouco mais.</p>
+
+<p>Para criar seu projeto Django, rode esse comando:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/blogproject$ django-admin startproject meublog
+</code></pre></div></div>
+
+<p>E pronto! Seu projeto Django foi criado!</p>
+
+<p><img src="https://miro.medium.com/max/480/1*mNGFX8u39v3fGLgzS9k3pA.gif" alt="" /></p>
+
+<p>Agora, digite <code class="highlighter-rouge">ls</code> no seu terminal e veja o que tem dentro dele:</p>
+
+<p><img src="https://miro.medium.com/max/700/1*ZMLY3eFkhqiT65dxqNO1OA.png" alt="" /></p>
+
+<p>Entendendo o que estamos vendo: <code class="highlighter-rouge">blog</code> é o diretório do seu ambiente virtual, <code class="highlighter-rouge">meublog</code> é o diretório do seu projeto. Agora use novamente o comando <code class="highlighter-rouge">cd</code> para entrar no diretório <code class="highlighter-rouge">meublog</code> e em seguida rode o comando <code class="highlighter-rouge">runserver</code> para exibir seu site:</p>
+
+<p><img src="https://miro.medium.com/max/700/1*3upBwwc234-N_6L7JWlxPw.png" alt="" /></p>
+
+<p>Quando você rodar o <code class="highlighter-rouge">runserver</code>, o Terminal vai te mostrar uma saída parecida com essa:</p>
+
+<p><img src="https://miro.medium.com/max/700/1*twCNjKZIhsrX_0iy3zuOKw.png" alt="" /></p>
+
+<blockquote>
+  <p>Se você estiver vendo uma parte do texto do terminal em vermelho escrito “You have 15 unapplied…”, não se preocupe: é só um aviso do Django dizendo que você deve migrar suas aplicações para o banco de dados. Mais adiante nos seus estudos você vai entender melhor isso.</p>
+</blockquote>
+
+<p>Copie e cole esse endereço http://127.0.0.1:8080 no seu navegador ou então posicione o cursor do mouse e depois faça Ctrl+clique do mouse que ele te redireciona para o navegador e, em seguida, você vai ver uma tela como essa:</p>
+
+<p><img src="https://miro.medium.com/max/700/1*FEXvL5XivNmyWFc5WXy_6g.png" alt="" /></p>
+
+<p>Parabéns! Você acabou de fazer o seu Hello World em Django!</p>
+
+<h3 id="considerações-finais">Considerações Finais</h3>
+<p>Eu espero ter te ajudado a criar um ambiente virtual. Quando eu consegui criar meus ambientes e rodar meus projetos sem problemas eu fiquei muito feliz e fui dormir sereno. De verdade! E um recado para você que tá entrando no mundo Python (e no mundo de desenvolvimento de software): seja um desenvolvedor organizado! Python te força a ser organizado tanto na escrita de código quanto na criação de ambientes de desenvolvimento e isso pode te fazer sair na frente numa vaga de emprego, numa vaga de projetos e etc.</p>
+
+<p>Quero agradecer as meninas do Django Girls por terem criado um tutorial de Django tão didático e tão completo! Escrito desde como funciona a web até você colocar a mão no código! Foi o tutorial delas que me inspirou a fazer este que, no fim das contas, é um recorte de uma parte do tutorial delas e agradeço também a Jessica Temporal que foi pelo site dela que eu descobri o venv e tive as primeiras sacadas sobre esse ambiente virtual. Obrigado meninas, vocês arrasam!</p>
+
+<p><img src="https://miro.medium.com/max/480/1*TlzCM3A6lRXM5FvZIge03Q.gif" alt="" /></p>
+
+<p>Também tô muito feliz porque esse é minha primeira publicação por aqui 😍 (foi minha primeira publicação no Medium e é a primeira no site) e espero continuar escrevendo sempre que eu tiver alguma coisa legal pra compartilhar. Bem, é isso. Abraços e até mais!</p>

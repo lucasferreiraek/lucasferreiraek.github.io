@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-11T10:49:33-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lucas Ferreira</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Markdown Extra Components</title><link href="http://localhost:4000/markdown-extra-components/" rel="alternate" type="text/html" title="Markdown Extra Components" /><published>2016-02-24T22:48:00-03:00</published><updated>2016-02-24T22:48:00-03:00</updated><id>http://localhost:4000/markdown-extra-components</id><content type="html" xml:base="http://localhost:4000/markdown-extra-components/">&lt;h2 id=&quot;summary&quot;&gt;Summary:&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-21T16:43:41-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lucas Ferreira</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Markdown Extra Components</title><link href="http://localhost:4000/markdown-extra-components/" rel="alternate" type="text/html" title="Markdown Extra Components" /><published>2016-02-24T22:48:00-03:00</published><updated>2016-02-24T22:48:00-03:00</updated><id>http://localhost:4000/markdown-extra-components</id><content type="html" xml:base="http://localhost:4000/markdown-extra-components/">&lt;h2 id=&quot;summary&quot;&gt;Summary:&lt;/h2&gt;
 
 &lt;p&gt;You can pick as item to see how to apply in markdown.&lt;/p&gt;
 
@@ -328,7 +328,112 @@ It’s sometimes handy for breaking things up.&lt;/p&gt;
         &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'#hamburguer__open'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fadeIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fast'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>johndoe</name></author><category term="blog" /><category term="markdown" /><category term="elements" /><summary type="html">Basic formatting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">:ramen: Indigo, minimalist jekyll theme</title><link href="http://localhost:4000/indigo-jekyll-theme/" rel="alternate" type="text/html" title=":ramen: Indigo, minimalist jekyll theme" /><published>2016-01-23T22:10:00-03:00</published><updated>2016-01-23T22:10:00-03:00</updated><id>http://localhost:4000/indigo-jekyll-theme</id><content type="html" xml:base="http://localhost:4000/indigo-jekyll-theme/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>johndoe</name></author><category term="blog" /><category term="markdown" /><category term="elements" /><summary type="html">Basic formatting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">Python, Django e Ambientes Virtuais: uma relação de organização e produtividade</title><link href="http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade/" rel="alternate" type="text/html" title="Python, Django e Ambientes Virtuais: uma relação de organização e produtividade" /><published>2016-02-24T22:44:00-03:00</published><updated>2016-02-24T22:44:00-03:00</updated><id>http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade</id><content type="html" xml:base="http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade/">&lt;blockquote&gt;
+  &lt;p&gt;O texto que você vai ler a partir de agora está publicado no meu perfil do Medium e, como eu optei pro criar meu próprio site, migrei o texto pra o site dando uma  repaginada no texto.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;um-breve-conto&quot;&gt;Um breve conto&lt;/h3&gt;
+&lt;p&gt;Quem desenvolve com Python e trabalha com mais de um projeto sabe que volta e meia rola uma dor de cabeça em relação a versões da linguagem e conflitos entre bibliotecas. Meses atrás eu estava iniciando meus estudo em Machine Learning e Data Science no laboratório da universidade e também trabalhava em um outro projeto com Django, e a partir daí começaram a surgir alguns problemas: nem conseguia rodar o Jupyter Notebook e nem um servidor Django localmente… e em meio ao caos me surgiu uma luz: &lt;strong&gt;ambientes virtuais!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.reactiongifs.com/wp-content/uploads/2012/12/this-is-beautiful.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Depois que lembrei disso, fui pesquisar pra aprender como fazer da melhor forma e no tutorial das meninas do &lt;a href=&quot;https://tutorial.djangogirls.org/pt/?source=post_page---------------------------&quot;&gt;Django Girls&lt;/a&gt; tinha lá tudo explicadinho, lindo de se ver! &lt;em&gt;-&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;E como eu defendo a ideia de que conhecimento bom é conhecimento disseminado, resolvi (re)escrever aqui o passo-a-passo do tutorial das meninas de como criar um ambiente virtual de desenvolvimento Python.&lt;/p&gt;
+
+&lt;h3 id=&quot;antes-de-mais-nada-o-que-são-ambientes-virtuais&quot;&gt;Antes de mais nada, o que são ambientes virtuais?&lt;/h3&gt;
+&lt;p&gt;De forma resumida, os ambientes virtuais são um conjunto de diretórios que isolam versões do Python e de bibliotecas de forma local, separando-as das versões globais que acompanham o sistema operacional. Agora, vamos fazer a mágica acontecer!&lt;/p&gt;
+
+&lt;h3 id=&quot;organizando-diretórios&quot;&gt;Organizando diretórios&lt;/h3&gt;
+&lt;p&gt;Django passou a adotar exclusivamente Python 3.x após a release do Django 2.0, mais precisamente Python 3.6 e como eu utilizava inicialmente Anaconda só para Data Science e o Anaconda utiliza Python 3.7 (versões do Python utilizadas pelas tecnologias citadas no momento da escrita dessa publicação), surge a necessidade de se utilizar ambientes virtuais.&lt;/p&gt;
+
+&lt;p&gt;Para fins didáticos, vamos supor que você vai criar um blog em Django (que inclusive é bem legal de fazer). Então, crie um diretório para o projeto que você vai trabalhar e, em seguida, entre nele:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ mkdir blogproject
+$ cd blogproject
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Depois que você entrar no diretório, seu terminal deve ficar assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/700/1*-fVLijIdxTTOohheDNWs-A.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir&lt;/code&gt; cria diretórios e o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; acessa um diretório.&lt;/p&gt;
+
+&lt;h3 id=&quot;criando-um-ambiente-virtual&quot;&gt;Criando um ambiente virtual&lt;/h3&gt;
+
+&lt;p&gt;Até onde eu sei, existem três ambientes virtuais por aí: &lt;a href=&quot;https://github.com/pyenv/pyenv&quot;&gt;pyenv&lt;/a&gt;, &lt;a href=&quot;https://virtualenv.pypa.io/en/latest/&quot;&gt;virtualenv&lt;/a&gt; e &lt;a href=&quot;https://docs.python.org/3/library/venv.html&quot;&gt;venv&lt;/a&gt;. Qual a diferença entre eles? Em linhas gerais, os dois primeiros precisam ser instalados na sua máquina e o último já vem no conjuntos de módulos padrão do Python desde a versão 3.3 da linguagem em algumas distribuições Linux e eu utilizo o Manjaro 18 Illyria e, por conta disso, utilizarei a &lt;strong&gt;venv&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dentro do diretório &lt;code class=&quot;highlighter-rouge&quot;&gt;blogproject&lt;/code&gt; vamos criar nosso ambiente virtual chamado blog com o seguinte comando:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/blogproject$ python3 -m venv blog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Este comando cria um diretório chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;blog&lt;/code&gt; que contém nosso ambiente virtual (que é basicamente composto por diretórios e arquivos). Para ativarmos o nosso ambiente virtual, vamos rodar o seguinte comando:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/blogproject$ source blog/bin/activate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Acabamos de ativar nosso ambiente virtual! Com o ambiente ativado, seu terminal deve ficar assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/700/1*n3SlzBrbi6kgBXEuEhnfnw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nesse estado, toda e qualquer instalação de módulos Python e até configurações de versões do Python será feita localmente no seu ambiente sem alterar Python globalmente no seu sistema operacional.&lt;/p&gt;
+
+&lt;h3 id=&quot;instalando-django&quot;&gt;Instalando Django&lt;/h3&gt;
+&lt;p&gt;Agora com o ambiente virtual ativo, podemos instalar o Django. O primeiro passo agora é verificar se a última versão do &lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt; está instalada. O &lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt; é o gerenciador de pacotes Python e é com ele que instalamos módulos e frameworks Python necessárias para seu projeto. Com o comando a seguir, faremos a instalação ou atualização do &lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/blogproject$ python3 -m pip install --upgrade pip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Feito isso, vamos instalar o Django através de requisitos, utilizando um arquivo chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;requirements.txt&lt;/code&gt;, que guarda as dependências necessárias para instalação utilizando o &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install&lt;/code&gt;. Dentro do diretório &lt;code class=&quot;highlighter-rouge&quot;&gt;blogproject&lt;/code&gt; crie um arquivo chamado &lt;code class=&quot;highlighter-rouge&quot;&gt;requirements.txt&lt;/code&gt;. Em seguida, abra o arquivo e escreva Django~=2.1.4 (ou a versão que você preferir), salve o arquivo e feche-o.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Informação legal antes de executar esse comando:&lt;/strong&gt; no comando salvo em requirements.txt existe uma espécie de operador: &lt;code class=&quot;highlighter-rouge&quot;&gt;~=&lt;/code&gt;. Ele vai dizer ao pip “pip, favor, instale a versão do Django igual ou superior a 2.1.4”. Se você preferir instalar exatamente a versão que você explicitou no arquivo, use &lt;code class=&quot;highlighter-rouge&quot;&gt;==&lt;/code&gt; que significa dizer “pip, por favor, instale exatamente a versão solicitada”. Agora, execute o comando:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/blogproject$ pip install -r requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;bonus-track-django-hello-world&quot;&gt;Bonus Track: Django Hello World!&lt;/h3&gt;
+&lt;p&gt;Como bônus, vou te ajudar a fazer um “Hello World” em Django. Talvez você que tá lendo esse texto esteja começando com Django e por algum motivo veio parar aqui. Se você só tem interesse em saber dos ambientes virtuais, pode rolar a página um pouco mais.&lt;/p&gt;
+
+&lt;p&gt;Para criar seu projeto Django, rode esse comando:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/blogproject$ django-admin startproject meublog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;E pronto! Seu projeto Django foi criado!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/480/1*mNGFX8u39v3fGLgzS9k3pA.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Agora, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; no seu terminal e veja o que tem dentro dele:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/700/1*ZMLY3eFkhqiT65dxqNO1OA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Entendendo o que estamos vendo: &lt;code class=&quot;highlighter-rouge&quot;&gt;blog&lt;/code&gt; é o diretório do seu ambiente virtual, &lt;code class=&quot;highlighter-rouge&quot;&gt;meublog&lt;/code&gt; é o diretório do seu projeto. Agora use novamente o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; para entrar no diretório &lt;code class=&quot;highlighter-rouge&quot;&gt;meublog&lt;/code&gt; e em seguida rode o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;runserver&lt;/code&gt; para exibir seu site:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/700/1*3upBwwc234-N_6L7JWlxPw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando você rodar o &lt;code class=&quot;highlighter-rouge&quot;&gt;runserver&lt;/code&gt;, o Terminal vai te mostrar uma saída parecida com essa:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/700/1*twCNjKZIhsrX_0iy3zuOKw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Se você estiver vendo uma parte do texto do terminal em vermelho escrito “You have 15 unapplied…”, não se preocupe: é só um aviso do Django dizendo que você deve migrar suas aplicações para o banco de dados. Mais adiante nos seus estudos você vai entender melhor isso.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Copie e cole esse endereço http://127.0.0.1:8080 no seu navegador ou então posicione o cursor do mouse e depois faça Ctrl+clique do mouse que ele te redireciona para o navegador e, em seguida, você vai ver uma tela como essa:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/700/1*FEXvL5XivNmyWFc5WXy_6g.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Parabéns! Você acabou de fazer o seu Hello World em Django!&lt;/p&gt;
+
+&lt;h3 id=&quot;considerações-finais&quot;&gt;Considerações Finais&lt;/h3&gt;
+&lt;p&gt;Eu espero ter te ajudado a criar um ambiente virtual. Quando eu consegui criar meus ambientes e rodar meus projetos sem problemas eu fiquei muito feliz e fui dormir sereno. De verdade! E um recado para você que tá entrando no mundo Python (e no mundo de desenvolvimento de software): seja um desenvolvedor organizado! Python te força a ser organizado tanto na escrita de código quanto na criação de ambientes de desenvolvimento e isso pode te fazer sair na frente numa vaga de emprego, numa vaga de projetos e etc.&lt;/p&gt;
+
+&lt;p&gt;Quero agradecer as meninas do Django Girls por terem criado um tutorial de Django tão didático e tão completo! Escrito desde como funciona a web até você colocar a mão no código! Foi o tutorial delas que me inspirou a fazer este que, no fim das contas, é um recorte de uma parte do tutorial delas e agradeço também a Jessica Temporal que foi pelo site dela que eu descobri o venv e tive as primeiras sacadas sobre esse ambiente virtual. Obrigado meninas, vocês arrasam!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/480/1*TlzCM3A6lRXM5FvZIge03Q.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Também tô muito feliz porque esse é minha primeira publicação por aqui 😍 (foi minha primeira publicação no Medium e é a primeira no site) e espero continuar escrevendo sempre que eu tiver alguma coisa legal pra compartilhar. Bem, é isso. Abraços e até mais!&lt;/p&gt;</content><author><name>lucasferreira</name></author><category term="blog" /><category term="python" /><category term="django" /><category term="environment" /><summary type="html">O texto que você vai ler a partir de agora está publicado no meu perfil do Medium e, como eu optei pro criar meu próprio site, migrei o texto pra o site dando uma repaginada no texto.</summary></entry><entry><title type="html">:ramen: Indigo, minimalist jekyll theme</title><link href="http://localhost:4000/indigo-jekyll-theme/" rel="alternate" type="text/html" title=":ramen: Indigo, minimalist jekyll theme" /><published>2016-01-23T22:10:00-03:00</published><updated>2016-01-23T22:10:00-03:00</updated><id>http://localhost:4000/indigo-jekyll-theme</id><content type="html" xml:base="http://localhost:4000/indigo-jekyll-theme/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Example of project - Indigo Minimalist Jekyll Template - &lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Demo&lt;/a&gt;. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.&lt;/p&gt;
 
