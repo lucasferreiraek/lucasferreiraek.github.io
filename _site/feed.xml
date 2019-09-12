@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-12T14:17:07-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lucas Ferreira</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Python, Django e Ambientes Virtuais: uma relação de organização e produtividade</title><link href="http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade/" rel="alternate" type="text/html" title="Python, Django e Ambientes Virtuais: uma relação de organização e produtividade" /><published>2019-07-21T16:51:00-03:00</published><updated>2019-07-21T16:51:00-03:00</updated><id>http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade</id><content type="html" xml:base="http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade/">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-12T15:52:44-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lucas Ferreira</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Instalando Julia no Linux</title><link href="http://localhost:4000/instalando-julia-no-linux/" rel="alternate" type="text/html" title="Instalando Julia no Linux" /><published>2019-09-12T00:00:00-03:00</published><updated>2019-09-12T00:00:00-03:00</updated><id>http://localhost:4000/instalando-julia-no-linux</id><content type="html" xml:base="http://localhost:4000/instalando-julia-no-linux/">&lt;p&gt;E aí, turma! Tudo bem?&lt;/p&gt;
+
+&lt;p&gt;Dessa vez eu venho aqui rapidamente para mostrar para vocês como instalar a linguagem &lt;a href=&quot;https://julialang.org&quot;&gt;Julia&lt;/a&gt; na sua distro Linux.&lt;/p&gt;
+
+&lt;p&gt;Atualmente eu estou utilizando o &lt;a href=&quot;http://manjaro.org/&quot;&gt;Manjaro&lt;/a&gt; na versão 18.&lt;/p&gt;
+
+&lt;p&gt;Algumas distribuições já trazem o pacote da linguagem nos seus repositórios, mas aqui vamos aprender a instalar usando os binários do Julia. Então vamos aos finalmentes.&lt;/p&gt;
+
+&lt;p&gt;1 - Baixe o pacote em https://julialang.org/downloads&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/screen-site-julia.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2 - Depois do download, entre via terminal na pasta onde o arquivo foi salvo&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd Downloads&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;e exatraia o pacote:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tar -vzxf julia-1.2.0-linux-x86_64.tar.gz&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;3 - Em seguida, mova o diretório para alguma pasta de sua preferência. Eu prefiro a pasta &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo mv julia-1.2.0 /opt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;4 - E, por fim, crie um link simbólico da seguinte maneira:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo ln -s /opt/julia-1.2.0/bin/julia /usr/local/bin/julia&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Depois de seguir estes passos, verifique se o interpretador do Julia já está funcionando. Caso não funcione de primeira, abra um novo terminal ou reinicie a sessão.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;julia -v
+julia&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Após executar &lt;code class=&quot;highlighter-rouge&quot;&gt;julia&lt;/code&gt; seu terminal deve ficar assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/terminal-julia.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Simples demais, né? Espero que você se divirta aprendendo Julia e logo mais espero escrever um pouco mais sobre Julia. Abraço!&lt;/p&gt;</content><author><name></name></author><summary type="html">E aí, turma! Tudo bem?</summary></entry><entry><title type="html">Python, Django e Ambientes Virtuais: uma relação de organização e produtividade</title><link href="http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade/" rel="alternate" type="text/html" title="Python, Django e Ambientes Virtuais: uma relação de organização e produtividade" /><published>2019-07-21T16:51:00-03:00</published><updated>2019-07-21T16:51:00-03:00</updated><id>http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade</id><content type="html" xml:base="http://localhost:4000/python-django-e-ambientes-virtuais-uma-relaco-de-organizaco-e-produtividade/">&lt;blockquote&gt;
   &lt;p&gt;O texto que você vai ler a partir de agora está publicado no meu perfil do Medium e, como eu optei pro criar meu próprio site, migrei o texto pra o site dando uma  repaginada no texto.&lt;/p&gt;
 &lt;/blockquote&gt;
 
