@@ -31,7 +31,9 @@ De forma resumida, os ambientes virtuais são um conjunto de diretórios que iso
 
 ### Organizando diretórios
 
+{% highlight raw %}
 Django passou a adotar exclusivamente Python 3.x após a release do Django 2.0, mais precisamente Python 3.6 e como eu utilizava inicialmente Anaconda só para Data Science e o Anaconda utiliza Python 3.7 (versões do Python utilizadas pelas tecnologias citadas no momento da escrita dessa publicação), surge a necessidade de se utilizar ambientes virtuais.
+{% endhighlight %}
 
 Para fins didáticos, vamos supor que você vai criar um blog em Django (que inclusive é bem legal de fazer). Então, crie um diretório para o projeto que você vai trabalhar e, em seguida, entre nele:
 
@@ -44,7 +46,7 @@ Depois que você entrar no diretório, seu terminal deve ficar assim:
 
 {% highlight raw %}
 ![Markdown Image](https://miro.medium.com/max/700/1*-fVLijIdxTTOohheDNWs-A.png)
-{% end highlight %}
+{% endhighlight %}
 
 O comando ```mkdir``` cria diretórios e o comando ```cd``` acessa um diretório.
 
@@ -68,7 +70,7 @@ Acabamos de ativar nosso ambiente virtual! Com o ambiente ativado, seu terminal 
 
 {% highlight raw %}
 ![Markdown Image](https://miro.medium.com/max/700/1*n3SlzBrbi6kgBXEuEhnfnw.png)
-{% end highlight %}
+{% endhighlight %}
 
 Nesse estado, toda e qualquer instalação de módulos Python e até configurações de versões do Python será feita localmente no seu ambiente sem alterar Python globalmente no seu sistema operacional.
 
@@ -102,25 +104,25 @@ E pronto! Seu projeto Django foi criado!
 
 {% highlight raw %}
 ![Markdown Image](https://miro.medium.com/max/480/1*mNGFX8u39v3fGLgzS9k3pA.gif)
-{% end highlight %}
+{% endhighlight %}
 
 Agora, digite ```ls``` no seu terminal e veja o que tem dentro dele:
 
 {% highlight raw %}
 ![Markdown Image](https://miro.medium.com/max/700/1*ZMLY3eFkhqiT65dxqNO1OA.png)
-{% end highlight %}
+{% endhighlight %}
 
 Entendendo o que estamos vendo: ```blog``` é o diretório do seu ambiente virtual, ```meublog``` é o diretório do seu projeto. Agora use novamente o comando ```cd``` para entrar no diretório ```meublog``` e em seguida rode o comando ```runserver``` para exibir seu site:
 
 {% highlight raw %}
 ![Markdown Image](https://miro.medium.com/max/700/1*3upBwwc234-N_6L7JWlxPw.png)
-{% end highlight %}
+{% endhighlight %}
 
 Quando você rodar o ```runserver```, o Terminal vai te mostrar uma saída parecida com essa:
 
-{% hightlight raw %}
+{% highlight raw %}
 ![Markdown Image](https://miro.medium.com/max/700/1*twCNjKZIhsrX_0iy3zuOKw.png)
-{% end highlight %}
+{% endhighlight %}
 
 > Se você estiver vendo uma parte do texto do terminal em vermelho escrito “You have 15 unapplied…”, não se preocupe: é só um aviso do Django dizendo que você deve migrar suas aplicações para o banco de dados. Mais adiante nos seus estudos você vai entender melhor isso.
 
@@ -128,7 +130,7 @@ Copie e cole esse endereço http://127.0.0.1:8080 no seu navegador ou então pos
 
 {% highlight raw %}
 ![Markdown Image](https://miro.medium.com/max/700/1*FEXvL5XivNmyWFc5WXy_6g.png)
-{% end highlight %}
+{% endhighlight %}
 
 Parabéns! Você acabou de fazer o seu Hello World em Django!
 
@@ -140,6 +142,6 @@ Quero agradecer as meninas do Django Girls por terem criado um tutorial de Djang
 
 {% highlight raw %}
 ![Markdown Image](https://miro.medium.com/max/480/1*TlzCM3A6lRXM5FvZIge03Q.gif)
-{% end highlight %}
+{% endhighlight %}
 
 Também tô muito feliz porque esse é minha primeira publicação por aqui 😍 (foi minha primeira publicação no Medium e é a primeira no site) e espero continuar escrevendo sempre que eu tiver alguma coisa legal pra compartilhar. Bem, é isso. Abraços e até mais!
