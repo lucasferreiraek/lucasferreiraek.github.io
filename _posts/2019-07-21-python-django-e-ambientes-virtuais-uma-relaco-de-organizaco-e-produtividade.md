@@ -14,6 +14,7 @@ author: lucasferreira
 > O texto que você vai ler a partir de agora está publicado no meu perfil do Medium e, como eu optei pro criar meu próprio site, migrei o texto pra o site dando uma  repaginada no texto.
 
 ### Um breve conto
+
 Quem desenvolve com Python e trabalha com mais de um projeto sabe que volta e meia rola uma dor de cabeça em relação a versões da linguagem e conflitos entre bibliotecas. Meses atrás eu estava iniciando meus estudo em Machine Learning e Data Science no laboratório da universidade e também trabalhava em um outro projeto com Django, e a partir daí começaram a surgir alguns problemas: nem conseguia rodar o Jupyter Notebook e nem um servidor Django localmente… e em meio ao caos me surgiu uma luz: **ambientes virtuais!**
 
 {% highlight raw %}
@@ -25,9 +26,11 @@ Depois que lembrei disso, fui pesquisar pra aprender como fazer da melhor forma 
 E como eu defendo a ideia de que conhecimento bom é conhecimento disseminado, resolvi (re)escrever aqui o passo-a-passo do tutorial das meninas de como criar um ambiente virtual de desenvolvimento Python.
 
 ### Antes de mais nada, o que são ambientes virtuais?
+
 De forma resumida, os ambientes virtuais são um conjunto de diretórios que isolam versões do Python e de bibliotecas de forma local, separando-as das versões globais que acompanham o sistema operacional. Agora, vamos fazer a mágica acontecer!
 
 ### Organizando diretórios
+
 Django passou a adotar exclusivamente Python 3.x após a release do Django 2.0, mais precisamente Python 3.6 e como eu utilizava inicialmente Anaconda só para Data Science e o Anaconda utiliza Python 3.7 (versões do Python utilizadas pelas tecnologias citadas no momento da escrita dessa publicação), surge a necessidade de se utilizar ambientes virtuais.
 
 Para fins didáticos, vamos supor que você vai criar um blog em Django (que inclusive é bem legal de fazer). Então, crie um diretório para o projeto que você vai trabalhar e, em seguida, entre nele:
@@ -70,6 +73,7 @@ Acabamos de ativar nosso ambiente virtual! Com o ambiente ativado, seu terminal 
 Nesse estado, toda e qualquer instalação de módulos Python e até configurações de versões do Python será feita localmente no seu ambiente sem alterar Python globalmente no seu sistema operacional.
 
 ### Instalando Django
+
 Agora com o ambiente virtual ativo, podemos instalar o Django. O primeiro passo agora é verificar se a última versão do ```pip``` está instalada. O ```pip``` é o gerenciador de pacotes Python e é com ele que instalamos módulos e frameworks Python necessárias para seu projeto. Com o comando a seguir, faremos a instalação ou atualização do ```pip```:
 
 ```
@@ -85,6 +89,7 @@ Feito isso, vamos instalar o Django através de requisitos, utilizando um arquiv
 ```
 
 ### Bonus Track: Django Hello World!
+
 Como bônus, vou te ajudar a fazer um “Hello World” em Django. Talvez você que tá lendo esse texto esteja começando com Django e por algum motivo veio parar aqui. Se você só tem interesse em saber dos ambientes virtuais, pode rolar a página um pouco mais.
 
 Para criar seu projeto Django, rode esse comando:
@@ -128,6 +133,7 @@ Copie e cole esse endereço http://127.0.0.1:8080 no seu navegador ou então pos
 Parabéns! Você acabou de fazer o seu Hello World em Django!
 
 ### Considerações Finais
+
 Eu espero ter te ajudado a criar um ambiente virtual. Quando eu consegui criar meus ambientes e rodar meus projetos sem problemas eu fiquei muito feliz e fui dormir sereno. De verdade! E um recado para você que tá entrando no mundo Python (e no mundo de desenvolvimento de software): seja um desenvolvedor organizado! Python te força a ser organizado tanto na escrita de código quanto na criação de ambientes de desenvolvimento e isso pode te fazer sair na frente numa vaga de emprego, numa vaga de projetos e etc.
 
 Quero agradecer as meninas do Django Girls por terem criado um tutorial de Django tão didático e tão completo! Escrito desde como funciona a web até você colocar a mão no código! Foi o tutorial delas que me inspirou a fazer este que, no fim das contas, é um recorte de uma parte do tutorial delas e agradeço também a Jessica Temporal que foi pelo site dela que eu descobri o venv e tive as primeiras sacadas sobre esse ambiente virtual. Obrigado meninas, vocês arrasam!
